@@ -45,9 +45,13 @@ header {
     background-color: rgb(255, 102, 0);
 }
 
-#customerstatement {
-    padding-bottom: 50px;
+#customerstatement1 {
     color: black;
+}
+
+#customerstatement2 {
+    color: black;
+    padding-bottom: 30px;
 }
 .testimonial-image {
     width: 10%;
