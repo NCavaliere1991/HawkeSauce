@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+#logo {
+    width: 40%;
+}
+
+header {
+    background-color: black;
+}
+
+.buttons {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(255, 102, 0);
+    border: 1px solid white;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar {
+    padding-bottom: 50px;
+}
+
+#herocontent {
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+
+#herocontainer {
+    margin: 0 auto;
+    background:rgba(0, 0, 0, 0.75);;
+}
+
+#testimonials {
+    padding: 100px 50px;
+    text-align: center;
+    background-color: rgb(255, 102, 0);
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    color: black;
+}
+
+em {
+    color: white;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 50px;
+}
+
+i {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+@media screen and (max-width: 968px) {
+    
+    #herocontent {
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    #herocontent {
+        padding: 40px;
+    }
+}
