@@ -14,6 +14,7 @@ header {
 .buttons {
     margin: 0 auto;
     text-align: center;
+    padding: 20px;
 }
 
 .btn {
@@ -82,5 +83,22 @@ i {
     
     #herocontent {
         padding: 40px;
+    }
+
+    .testimonial-image {
+        width: 30%;
+    }
+
+    #logo {
+        padding-bottom: 10px;
+    }
+
+    #searchbar {
+       margin: 0 auto;
+
+    }
+
+    .logocontainer {
+        text-align: center;
     }
 }
