@@ -54,9 +54,20 @@
                 </form>
             </div>
             <div class="buttons" role="group" aria-label="Basic example">
-                <button type="button" class="btn">Sauce</button>
-                <button type="button" class="btn">Seasonings</button>
-                <button type="button" class="btn">Merch</button>
+                <button onclick="sauceDropdown()" type="button" class="btn dropbtn">Sauce</button>
+                <div id="sauceDropdown" class="dropdown-content">
+                    <a href="#">Hawke Sawse Original</a>
+                    <a href="#">Hawke Sawse Spicy</a>
+                </div>
+                <button onclick="seasonDropdown()" type="button" class="btn dropbtn">Seasonings</button>
+                <div id="seasonDropdown" class="dropdown-content">
+                    <a href="#">Hawke Season</a>
+                </div>
+                <button onclick="merchDropdown()" type="button" class="btn dropbtn">Merch</button>
+                <div id="merchDropdown" class="dropdown-content">
+                    <a href="#">Hawke Hat</a>
+                    <a href="#">Hawke Shirt</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -132,6 +143,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
