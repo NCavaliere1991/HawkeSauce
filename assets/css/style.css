@@ -85,6 +85,10 @@ i {
     color: red;
 }
 
+#contact {
+    width: 25%;
+}
+
 @media screen and (max-width: 968px) {
     
     #herocontent {
@@ -103,6 +107,7 @@ i {
     }
 
     #logo {
+        width: 60%;
         padding-bottom: 10px;
     }
 
