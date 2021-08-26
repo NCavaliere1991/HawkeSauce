@@ -87,6 +87,7 @@ i {
 
 #contact {
     width: 25%;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 968px) {
